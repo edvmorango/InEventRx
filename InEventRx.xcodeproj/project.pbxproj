@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5BCC023D1E27AC7F00C041FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC023C1E27AC7F00C041FE /* AppDelegate.swift */; };
-		5BCC023F1E27AC7F00C041FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC023E1E27AC7F00C041FE /* ViewController.swift */; };
+		5BCC023F1E27AC7F00C041FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC023E1E27AC7F00C041FE /* MainViewController.swift */; };
 		5BCC02421E27AC7F00C041FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC02401E27AC7F00C041FE /* Main.storyboard */; };
 		5BCC02441E27AC7F00C041FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC02431E27AC7F00C041FE /* Assets.xcassets */; };
 		5BCC02471E27AC7F00C041FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC02451E27AC7F00C041FE /* LaunchScreen.storyboard */; };
 		5BCC02521E27AC7F00C041FE /* InEventRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC02511E27AC7F00C041FE /* InEventRxTests.swift */; };
 		5BCC025D1E27AC7F00C041FE /* InEventRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC025C1E27AC7F00C041FE /* InEventRxUITests.swift */; };
+		5BCC027D1E27AE8000C041FE /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC027C1E27AE8000C041FE /* Pessoa.swift */; };
+		5BCC027F1E27AE8800C041FE /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC027E1E27AE8800C041FE /* Evento.swift */; };
+		5BCC02821E27BD5B00C041FE /* InEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC02811E27BD5B00C041FE /* InEventAPI.swift */; };
+		5BCC028D1E27DD4C00C041FE /* InEventProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC028C1E27DD4C00C041FE /* InEventProvider.swift */; };
+		5BCC02951E27EE5F00C041FE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC028E1E27EE5F00C041FE /* Alamofire.framework */; };
+		5BCC02961E27EE5F00C041FE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC028E1E27EE5F00C041FE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCC02971E27EE5F00C041FE /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC028F1E27EE5F00C041FE /* Moya.framework */; };
+		5BCC02981E27EE5F00C041FE /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC028F1E27EE5F00C041FE /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCC02991E27EE5F00C041FE /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02901E27EE5F00C041FE /* Result.framework */; };
+		5BCC029A1E27EE5F00C041FE /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02901E27EE5F00C041FE /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCC029B1E27EE5F00C041FE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02911E27EE5F00C041FE /* RxBlocking.framework */; };
+		5BCC029C1E27EE5F00C041FE /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02911E27EE5F00C041FE /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCC029D1E27EE5F00C041FE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02921E27EE5F00C041FE /* RxCocoa.framework */; };
+		5BCC029E1E27EE5F00C041FE /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02921E27EE5F00C041FE /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCC029F1E27EE5F00C041FE /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02931E27EE5F00C041FE /* RxMoya.framework */; };
+		5BCC02A01E27EE5F00C041FE /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02931E27EE5F00C041FE /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BCC02A11E27EE5F00C041FE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02941E27EE5F00C041FE /* RxSwift.framework */; };
+		5BCC02A21E27EE5F00C041FE /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC02941E27EE5F00C041FE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +51,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5BCC02A31E27EE5F00C041FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5BCC029A1E27EE5F00C041FE /* Result.framework in Embed Frameworks */,
+				5BCC02981E27EE5F00C041FE /* Moya.framework in Embed Frameworks */,
+				5BCC02A21E27EE5F00C041FE /* RxSwift.framework in Embed Frameworks */,
+				5BCC02A01E27EE5F00C041FE /* RxMoya.framework in Embed Frameworks */,
+				5BCC02961E27EE5F00C041FE /* Alamofire.framework in Embed Frameworks */,
+				5BCC029E1E27EE5F00C041FE /* RxCocoa.framework in Embed Frameworks */,
+				5BCC029C1E27EE5F00C041FE /* RxBlocking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5BCC02391E27AC7F00C041FE /* InEventRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InEventRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCC023C1E27AC7F00C041FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BCC023E1E27AC7F00C041FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BCC023E1E27AC7F00C041FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5BCC02411E27AC7F00C041FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BCC02431E27AC7F00C041FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BCC02461E27AC7F00C041FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +85,25 @@
 		5BCC02581E27AC7F00C041FE /* InEventRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InEventRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCC025C1E27AC7F00C041FE /* InEventRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InEventRxUITests.swift; sourceTree = "<group>"; };
 		5BCC025E1E27AC7F00C041FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCC026A1E27AE1400C041FE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5BCC026B1E27AE1400C041FE /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		5BCC026C1E27AE1400C041FE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5BCC026D1E27AE1400C041FE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5BCC026E1E27AE1400C041FE /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		5BCC027C1E27AE8000C041FE /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		5BCC027E1E27AE8800C041FE /* Evento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		5BCC02811E27BD5B00C041FE /* InEventAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InEventAPI.swift; sourceTree = "<group>"; };
+		5BCC02831E27C28200C041FE /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		5BCC02841E27C28200C041FE /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		5BCC02851E27C28200C041FE /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		5BCC028C1E27DD4C00C041FE /* InEventProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InEventProvider.swift; sourceTree = "<group>"; };
+		5BCC028E1E27EE5F00C041FE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5BCC028F1E27EE5F00C041FE /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		5BCC02901E27EE5F00C041FE /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		5BCC02911E27EE5F00C041FE /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		5BCC02921E27EE5F00C041FE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5BCC02931E27EE5F00C041FE /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		5BCC02941E27EE5F00C041FE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +111,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCC02991E27EE5F00C041FE /* Result.framework in Frameworks */,
+				5BCC02971E27EE5F00C041FE /* Moya.framework in Frameworks */,
+				5BCC02A11E27EE5F00C041FE /* RxSwift.framework in Frameworks */,
+				5BCC029F1E27EE5F00C041FE /* RxMoya.framework in Frameworks */,
+				5BCC02951E27EE5F00C041FE /* Alamofire.framework in Frameworks */,
+				5BCC029D1E27EE5F00C041FE /* RxCocoa.framework in Frameworks */,
+				5BCC029B1E27EE5F00C041FE /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +141,7 @@
 		5BCC02301E27AC7F00C041FE = {
 			isa = PBXGroup;
 			children = (
+				5BCC02A41E2824D000C041FE /* Frameworks */,
 				5BCC023B1E27AC7F00C041FE /* InEventRx */,
 				5BCC02501E27AC7F00C041FE /* InEventRxTests */,
 				5BCC025B1E27AC7F00C041FE /* InEventRxUITests */,
@@ -97,8 +162,10 @@
 		5BCC023B1E27AC7F00C041FE /* InEventRx */ = {
 			isa = PBXGroup;
 			children = (
+				5BCC02801E27B2D800C041FE /* REST */,
+				5BCC027A1E27AE2900C041FE /* Model */,
 				5BCC023C1E27AC7F00C041FE /* AppDelegate.swift */,
-				5BCC023E1E27AC7F00C041FE /* ViewController.swift */,
+				5BCC023E1E27AC7F00C041FE /* MainViewController.swift */,
 				5BCC02401E27AC7F00C041FE /* Main.storyboard */,
 				5BCC02431E27AC7F00C041FE /* Assets.xcassets */,
 				5BCC02451E27AC7F00C041FE /* LaunchScreen.storyboard */,
@@ -125,6 +192,46 @@
 			path = InEventRxUITests;
 			sourceTree = "<group>";
 		};
+		5BCC027A1E27AE2900C041FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC027C1E27AE8000C041FE /* Pessoa.swift */,
+				5BCC027E1E27AE8800C041FE /* Evento.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5BCC02801E27B2D800C041FE /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC02811E27BD5B00C041FE /* InEventAPI.swift */,
+				5BCC028C1E27DD4C00C041FE /* InEventProvider.swift */,
+			);
+			name = REST;
+			sourceTree = "<group>";
+		};
+		5BCC02A41E2824D000C041FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC028E1E27EE5F00C041FE /* Alamofire.framework */,
+				5BCC028F1E27EE5F00C041FE /* Moya.framework */,
+				5BCC02901E27EE5F00C041FE /* Result.framework */,
+				5BCC02911E27EE5F00C041FE /* RxBlocking.framework */,
+				5BCC02921E27EE5F00C041FE /* RxCocoa.framework */,
+				5BCC02931E27EE5F00C041FE /* RxMoya.framework */,
+				5BCC02941E27EE5F00C041FE /* RxSwift.framework */,
+				5BCC02831E27C28200C041FE /* Moya.framework */,
+				5BCC02841E27C28200C041FE /* Result.framework */,
+				5BCC02851E27C28200C041FE /* RxMoya.framework */,
+				5BCC026A1E27AE1400C041FE /* Alamofire.framework */,
+				5BCC026B1E27AE1400C041FE /* RxBlocking.framework */,
+				5BCC026C1E27AE1400C041FE /* RxCocoa.framework */,
+				5BCC026D1E27AE1400C041FE /* RxSwift.framework */,
+				5BCC026E1E27AE1400C041FE /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +242,7 @@
 				5BCC02351E27AC7F00C041FE /* Sources */,
 				5BCC02361E27AC7F00C041FE /* Frameworks */,
 				5BCC02371E27AC7F00C041FE /* Resources */,
+				5BCC02A31E27EE5F00C041FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,7 +370,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BCC023F1E27AC7F00C041FE /* ViewController.swift in Sources */,
+				5BCC02821E27BD5B00C041FE /* InEventAPI.swift in Sources */,
+				5BCC027F1E27AE8800C041FE /* Evento.swift in Sources */,
+				5BCC023F1E27AC7F00C041FE /* MainViewController.swift in Sources */,
+				5BCC027D1E27AE8000C041FE /* Pessoa.swift in Sources */,
+				5BCC028D1E27DD4C00C041FE /* InEventProvider.swift in Sources */,
 				5BCC023D1E27AC7F00C041FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +528,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89W7776J34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = InEventRx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvmorango.InEventRx;
@@ -429,6 +545,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89W7776J34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = InEventRx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvmorango.InEventRx;
